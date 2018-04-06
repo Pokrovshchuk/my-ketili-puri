@@ -1,0 +1,133 @@
+::-webkit-input-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+:-moz-ui-invalid:not(output) {
+    box-shadow: 0 0 0 red;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+   /* background: #ddd;*/
+}
+
+.hidden {
+    display: none;
+}
+
+.popup-form {
+    background: #fff;
+    margin: 40px auto;
+    padding: 20px 30px 10px;
+    text-align: left;
+    max-width: 320px;
+    position: relative;
+    border-radius: 10px;
+    border: 4px solid #4a0559;
+}
+
+.button-center {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.popup-form button.button {
+    margin: 30px auto 6px;
+    padding: 5px 5px;
+    border-radius: 2px;
+    font-size: 16px;
+    transition: background-color .25s ease 0;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.popup-form button.button:hover {
+    background-color: #490206;
+}
+
+p.zakaz {
+    margin: 15px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;   
+}
+
+.popup-form label,.popup-form input {
+    display: block;
+    width: 94%;
+    font-weight: 400;
+}
+
+.popup-form label span {
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.popup-form input {    
+    color: #999;
+    border: none;
+    width: 100%;
+    height: 28px;
+}
+
+.success {
+    display: none;
+    position: absolute;
+    margin: 2px;
+    padding: 0 30px;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 98%;
+    text-align: center;
+    background-color: #FFF;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.success.visible {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 307px;
+}
+
+.success.visible p {
+    margin: 0;
+    padding: 0;
+}
+
+.success.visible p span.sencs {
+    font-weight: 700;
+    font-size: 16px;
+}

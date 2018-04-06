@@ -1,0 +1,624 @@
+#ssil{
+	display: none;
+}
+
+html,body{
+	font-size: 20px;
+}
+ul li{
+	list-style: none;
+}
+h1{
+	 font-size: 90px; 
+}
+h2{
+	font-size: 70px;
+}
+h3{
+	font-size: 56px;
+}
+h4{
+	font-size: 40px;
+}
+h5{
+	font-size: 20px;
+}
+/*====================HEADER============================*/
+#container-top{
+	background: url(../img/header_bg.jpg);
+	background-size: 100% 100%;
+}
+.tel{
+	margin-top: 15px;	
+}
+
+.social, .tel{	
+	display: inline-block;
+}
+.social{	
+	margin-top: 50px ;
+	text-align: center;
+}
+.social a{
+	margin-right: 10px;
+}
+/*==================================MENU========================================*/
+#menu-wrap{
+	background: #6C0108 url(../img/topmenu_bg.png) repeat-x;
+}
+#top-menu{
+	text-align: center;
+	top:-100px;
+	position: relative;
+}
+#top-menu ul{
+		padding: 0;
+	}
+#right-menu, #left-menu{
+	margin-top: 100px;	
+}
+.col-md-4 ul li a{
+	color: #fff;
+	font-size: 20px;
+	padding: 15px 15px 0 0;	
+}
+.col-md-4 ul li a:hover{
+	text-decoration: none;
+	color: #e4ba80;
+}
+.col-md-4 ul li a:focus{
+    text-decoration: none;
+}
+#right-menu li, #left-menu li{
+	display: inline-block;
+}
+/*===========================CONTENT(LOGO-TEXT)=========================================*/
+.logo-text{
+	background: #6C0108;
+}
+#logo-head-1{
+	margin-top:100px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+#logo-head-2{
+	margin: 0;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+}
+/*===========================CONTENT(CORUSEL)=========================================*/
+.slider{
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+.slide{
+	outline: none;
+}
+.slider img{
+	width: 100%;
+}
+
+/*==================================FOOD-MENU=========================================*/
+
+#food-menu{
+	background: #f0cc92 url("../img/the_menu_bg.jpg") top center repeat-y;
+}
+
+#food-list h2{	
+	color: #FFFCFC;
+	text-shadow: 2px 2px 0 #440D0D;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 80px;	
+}
+#food-list h3{
+	color: #FFFCFC;
+	text-shadow: 2px 2px 0 #440D0D;
+	text-transform: uppercase;
+	text-align: center;
+}
+.small-logo{
+	padding: 0;
+	margin: 0;
+}
+.small-logo img{
+	width: 100%;
+	position: relative;
+	top:60px;
+}
+.item .new{
+	font-size:26px; 
+	color:red;
+	float: none;
+	font-style:
+	font-weight:bold; 
+}
+/*===================================FOOD-LIST==========================================*/
+.zoom{
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);	
+	width: 15%;
+	border-radius: 20%;
+}
+.desc{	
+	color: #e7e7e7;
+	font-style: italic;	
+	
+}
+.item{
+	font-size: 24px;
+	color: #e7e7e7;
+	text-shadow: 3px 3px 5px #130b0c;
+	margin-top: 30px;
+}
+.item span{
+	float: right;	
+}
+#food-list{
+	padding-bottom: 100px;
+}
+#small-logo{
+	position: relative;
+	top: -50px;
+}
+#small-logo img{
+	width: 100%
+}
+
+/*==================================OUR KITCHEN=========================================*/
+.our-kitchen{
+	padding: 0;
+	box-shadow: 5px 5px 0 #000;	
+}
+.our-kitchen h2{
+	margin: 0;
+	padding: 0 ;
+	color: #664F23;
+	text-shadow: 2px 2px 0 #440D0D;
+	text-transform: uppercase;
+	text-align: center;
+	background: #FAF9F5;	
+}
+.our-kitchen .kitchen-photo{
+	height: 700px;
+	background: url(../img/restaurant.jpg) center no-repeat;
+	background-size: cover;
+}
+.kitchen-text{
+	float: right;
+	height: 700px;	
+}
+.kitchen-text h3{
+	color: #FFFCFC;
+	text-align: left;
+	text-shadow: 2px 2px 0 #440D0D;
+	padding: 300px 0 40px;
+}
+.kitchen-text p{
+	color: #FFFCFC;	
+	text-shadow: 2px 2px 0 #440D0D;
+}
+/*<!-- =============================ABOUT US======================================= -->*/
+#about-us{
+	background: url(../img/story_bg.jpg) no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 10px 20px #000;
+	color: #fff;
+}
+#story{
+	padding-top: 60px;
+	text-shadow: 5px 5px 0 #130b0c;
+}
+.subtext{	
+	color: #dcb7b5;
+	font-size: 40px;
+	text-shadow: 3px 3px 5px #130b0c;
+}
+#story-desc{
+	padding-top: 30px;	
+	text-shadow: 2px 2px 1px #130b0c;
+}
+#about-photo{
+	text-align: center;
+	margin: 80px 0;	
+}
+.gal-photo{
+	background: #fff;
+	padding: 8px 8px 20px 8px;
+	margin: 10px; 
+}
+
+
+/*=============================PHOTO-GALLERY=======================================*/
+#gallery{
+	background: url(../img/gallery_bg.jpg);
+	outline: none;
+}
+#gallery h2{
+	padding-top: 40px;
+	color: #581710;	
+	text-transform: uppercase;
+	text-shadow: 3px 3px 0 #fff;
+	text-align: center;
+}
+
+/*=============================PHOTO-GALLERY CORUSEL=======================================*/
+#gallery {		
+	background: url(../img/gallery_bg.jpg);
+}	
+.gal_slide{
+	outline: none;
+}
+.gal_slide h5{
+	color: #fff;
+	text-align: center;
+}
+.responsive{
+	padding-top: 30px;
+	margin-bottom: 40px;
+	background: url(../img/gallery_bg2.png);
+}
+.responsive .col-md-4 h3{
+	text-align: center;
+	color: #fff;
+}
+/*==================================REVIEWS==============================================*/
+#reviews{
+	background: url(../img/video_bg.jpg);
+}
+#reviews h2{
+	margin-top: 70px;	
+	color: #6C0108;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 #440D0D;
+	text-transform: uppercase;
+	text-align: center;
+}
+#reviews p{
+	text-align: center;
+}
+/*==================================CONTACTS==============================================*/
+#contacts-head{
+	background: url(../img/contact_bg.jpg);
+}
+#contacts-wrap{
+	background: url(../img/contact_bg_wood.jpg);
+	padding-bottom: 60px;
+}
+
+#contacts-head h2{
+	margin: 30px 0;
+	color: #6C0108;	
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 #440D0D;
+}
+#paper-form{
+	margin-top: 50px;
+	background: url(../img/contact_bg_paper.jpg) no-repeat;
+	background-size: 100% 100%;	 
+}
+#paper-form h3{	
+	color: #d18e0b;
+	text-align: center;
+	text-transform: uppercase;	
+	background: url(../img/dashed.png) bottom repeat-x;
+	padding: 50px 0 20px 0;	
+	margin:0 150px;
+}
+.col-md-6 h4{
+	color: #d18e0b;	
+	text-transform: uppercase;
+	font-family: 'Bitter', serif;
+}
+#fasadphoto{
+	margin-top: 30px;
+	width: 60%;
+	border-radius: 5%;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+}
+#map-wrap{		
+	margin-top: 30px;
+	margin-bottom: 60px;		
+}
+/*==================================CONTACT-RORM==============================================*/
+form{
+	margin-top: 30px;
+}
+#form-wrap{
+	width: 350px;
+}
+.form-group, textarea{
+	width: 100%;
+}
+#email, #phone, textarea{
+	background: #f8ebd3;
+}
+button{
+	background: #d18e0b;
+}
+iframe{
+	width: 100%
+}
+/*===================================FOOTER==========================================*/
+footer .container-fluid{
+	background: #6F0109;
+	height: 60px;
+	text-align: center;
+}
+footer .container-fluid div{
+	margin-top: 20px;
+}
+footer .container-fluid p,a{
+	display: inline-block;
+	color: #fff;
+}
+footer .container-fluid a span{
+	color: #1B5EE3;
+}
+footer .container-fluid a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+#back-top{
+	display: none;
+}
+/*=============================MODAL WINDOW==============================*/
+.popup-form{
+	background: url(../img/bg.png);
+	border: none;
+	width: 249px;
+	height: 280px;
+}
+.zakaz{
+	color: #fff;
+}
+
+ body div#form_vopros1 {
+	height: 30px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 30px;
+	position: fixed;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	right: 10px;
+	bottom: 30px;
+	cursor: pointer;
+	height: 75px;
+	width: 70px;
+	z-index:9999;
+}
+.button-center .button{
+	background: #6C0108;
+}
+.popup-with-move-anim:focus{	
+	outline: none;
+}
+/*============================BOTTOM-ARROW====================================*/
+#back-top{
+	direction: block;
+}
+#logo-head-1{
+	margin-top: -100px;
+}
+/*============================>1430х1000===================================*/
+@media (min-width: 1430px ) {
+	#logo{
+		width: 480px;
+	}
+	.col-md-4 ul li a {
+		font-size: 24px;
+	}
+}
+/*============================1430х1000===================================*/
+@media (max-width: 1430px ) {
+	#logo{
+		width: 420px;
+	}
+	.col-md-4 ul li a {
+		font-size: 22px;
+	}
+}
+/*============================1300х1000===================================*/
+
+@media (max-width: 1300px) {
+	#logo{
+		width: 380px;
+		margin-top: 10px;
+	}
+	.col-md-4 ul li a {
+		font-size: 20px;
+	}
+}
+
+/*============================1260х1000===================================*/
+@media (max-width: 1260px) {
+	 #logo{
+		width: 350px;
+		margin: 30px;
+	} 
+	.col-md-4 ul li a {
+		font-size: 18px;
+	}
+}
+/*============================1122х960===================================*/
+ @media (max-width: 1122px) {
+   		#logo {
+   		width: 340px;
+   		margin-top: 30px;
+   	}
+   		.col-md-4 ul li a {
+   		font-size: 15px;
+   	}
+   } 
+/*============================1026х960===================================*/
+@media (max-width: 1025px){
+	html, body{
+		font-size: 16px;
+	}
+	.col-md-4 ul li a {
+		font-size: 14px;
+	}
+	#logo {
+		width: 300px;
+		margin-top: 35px;
+	}
+}
+/*============================980===================================*/
+@media (max-width: 980px) {
+	html, body{
+		font-size: 14px;
+	}
+	.col-md-4 ul li a {
+		font-size: 12px;
+	}
+	#logo {
+		width: 250px;
+		margin-top: 60px;
+	}
+	#form-wrap{
+		width: 290px
+	}
+}
+/*=========================800х600================================*/
+ @media only (max-width:800px) {	
+   	.col-md-4 ul li a{
+   		font-size: 14px;
+   	}
+   	#logo {
+		width: 220px;
+		margin-top: 70px;
+	}
+	.col-md-4 ul li a {
+		font-size: 12px;
+	}
+}
+/*=========================MEDIA 768================================*/
+@media (max-width: 768px) {
+	h1, h1 {
+    font-size: 60px;
+    margin-top: 20px;
+	}
+	h2, h2 {
+		font-size: 42px;
+	}
+	h3 {
+		font-size: 32px;
+	}
+	p {
+		font-size: 13px;
+	}
+	.item {
+		font-size: 16px;
+	}
+	.item .new {
+		font-size: 20px;
+		font-weight:bold;
+	}	
+	#paper-form div h3 {
+		margin:0;
+	}
+	#paper-form div div h4 {
+		font-size: 32px;
+	}	
+	body div#form_vopros1 {
+	right: -5px; 
+	bottom: 50px;
+	}
+	.col-md-4 ul li a{
+		font-size: 12px;
+	}
+	 #logo {
+			width: 220px;
+	} 	
+	#top-menu{
+		display: flex;
+		flex-flow: column;		
+	}
+	#logotip{
+		order: 1;
+	}
+	#left-menu1{
+		order: 2; 
+		flex-flow: row;		
+	}
+	#right-menu1{
+		order: 3;
+		flex-flow: row;	
+	}
+	#left-menu, #right-menu{
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	#form-wrap {
+		width: 320px;
+	}
+	#kitchen-desc, #story-desc {
+		font-size: 18px;
+	}
+}
+/*===========================500=====================================*/
+@media (max-width: 503px) {
+	.social a{
+		width: 50px;
+		margin-top: 5px;
+		padding: 0;		
+	}
+	.social{
+		margin-top: 15px;
+	}	 
+	#kitchen-desc, #story-desc {
+		font-size: 18px;
+	}
+}
+/*===========================420=====================================*/
+@media (max-width: 419px) {
+	#logo {
+			width: 200px;
+			margin-top: 85px;
+	} 	
+	p {
+		font-size: 11px;
+	}
+	#form-wrap {
+		width: 280px;
+	}
+	#paper-form div div h4{
+		width: 100%;
+	}
+	#kitchen-desc, #story-desc {
+		font-size: 18px;
+	}
+}
+/*===========================350=====================================*/
+@media (max-width: 352px) {
+	footer .container-fluid div{
+		margin-top: 0;
+	}
+	#data{
+		margin-left: 0;
+	}
+	body div#form_vopros1 {
+		right: 10px;
+	}
+	#form-wrap{
+		width: 250px;
+	}
+	#kitchen-desc, #story-desc {
+		font-size: 18px;
+	}
+}
+/*===========================320=====================================*/
+@media (max-width: 419px) {	
+	p {
+		font-size: 9px;
+	}
+	#kitchen-desc, #story-desc {
+		font-size: 18px;
+	}
+
+}
